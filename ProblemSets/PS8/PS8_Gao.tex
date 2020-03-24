@@ -1,0 +1,94 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\title{PS8}
+\author{gaoningjing0012 }
+\date{March 2020}
+
+
+
+
+\maketitle
+
+\begin{document}
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+& beta & beta.hat.OLS & beta.hat.LBFGS & beta.hat.NM & beta.hat.MLE\\
+  \hline
+ X1&1.5005793&1.500579&2.1712663&2.1712666&2.1712663\\
+ X2&-0.9912363 &-0.9912364&0.4958889&0.4958889&0.4958889\\
+ X3&-0.2472996 &-0.2472997&0.8292439&0.8292438&0.8292439\\
+ X4&0.7443806 & 0.7443806&-0.3151552&-0.3151550& -0.3151550\\
+ X5&3.5035336 & 3.5035338&-0.7235620&-0.7235619&-0.7235622\\
+ X6&-1.9988728 &-1.9988729&-1.0234978&-1.0234978& -1.0234983\\
+ X7&0.5022677  &0.5022677&2.1712663&2.1712666&0.3006270\\
+ X8&0.9974800  &0.9974801&0.4958889&0.4958889&2.1712663\\
+ X9&1.2556600  &1.2556600&0.8292439&0.8292438&0.4958889\\
+X10&1.9987691  &1.9987692&-0.3151552&-0.3151550& 0.8292439\\
+   \hline
+\end{tabular}
+\end{table}
+
+
+we can see from the above table, we can see my estimates close to the true value. and the Nelder Mead is a little bit bigger than the LBFGS.
+
+
+\section{  }
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Y \\ 
+\hline \\[-1.8ex] 
+ X1 & 1.501$^{***}$ \\ 
+  & (0.002) \\ 
+  & \\ 
+ X2 & $-$0.991$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X3 & $-$0.247$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X4 & 0.744$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X5 & 3.504$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X6 & $-$1.999$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X7 & 0.502$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X8 & 0.997$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X9 & 1.256$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+ X10 & 1.999$^{***}$ \\ 
+  & (0.003) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 100,000 \\ 
+R$^{2}$ & 0.971 \\ 
+Adjusted R$^{2}$ & 0.971 \\ 
+Residual Std. Error & 0.500 (df = 99990) \\ 
+F Statistic & 338,240.000$^{***}$ (df = 10; 99990) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+\end{document}
