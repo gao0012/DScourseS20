@@ -142,3 +142,4 @@ logprediction<-glm(formula = Survived ~ Pclass + Sex + Age + Title + FamilySize
     
 ```
 ##     family = binomial(link = "logit"), data = train)
+
